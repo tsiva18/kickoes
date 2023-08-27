@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    background-color: #e6ffff;
+    box-shadow: 0px 1px 2px 0px black;
+}
+.container-fluid h6{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 2px 4px 2px white;
+    padding-left: 5px;
+}
+.nav-link{
+    color: black !important;
+    padding-right: 50px !important;
+    font-size: 20px !important;
+}
+.container-fluid ul li a:hover{
+    color:blue !important;
+}
+.active{
+    color:blue !important;
+}
+.container-fluid button{
+    background-color:aliceblue !important;
+    border:none !important;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+    #home .container{
+        width:50%;
+        height: 100vh;
+         float:left;
+        }
+        .container h1{
+            margin-left: 5%;
+            margin-top: 17%;
+            font-size: 50px;
+            color: goldenrod;
+            opacity: .8;
+        }
+        .container p{
+            margin-left: 5%;
+            padding-top: 15px;
+            font-size: 20px;
+        }
+        .container button{
+            margin-left: 5%;
+            padding: 10px;
+            border: 2px solid black;
+            font-size: 15px;
+            background: transparent;
+        }
+        .container button:hover{
+            background-color: black;
+            color: aqua;
+        }
+        @media screen and (max-width:576px){
+            #home{
+                width: 100%;
+                height: 100vh;
+                background-image: url(bg2.jpg);
+            }
+            #home .container{
+                width:75%;
+                height: 100vh;
+            
+            }
+            #home .container h1{
+                font-size: 30px;
+            }
+            #home .container p{
+                font-size: 12px;
+                padding-top: 15px;
+            }
+            .container button{
+                margin-top: 20px;
+            }
+        }
+        #men{
+            width:100%;
+            min-height: auto;
+        }
+        #men .banner{
+            width: 100%;
+            height: 300px;
+            box-shadow: 0px 1px 2px 0px;
+            background-image: url("man.jpg");
+            background-size: cover;
+            background-position: center;
+
+        }
+        #men .banner h1{
+            color: black;
+            font-size: 100px;
+            padding-top: 50px;
+            opacity: .8;
+        }
+        #men .banner p{
+            color:wheat;
+            font-size: 30px;
+        }
+        #men .container{
+            width: 100%;
+            min-height: auto;
+        }
+       .container #boy{
+            width: 200px;
+            height: 200px;
+            
+       }
+       .container h4{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        color: brown;
+       }
+       .card{
+        border: none !important;
+        align-items: center !important;
+       }
+       @media screen and (max-width:576px){
+        #men .banner h1{
+            font-size: 80px;
+        }
+        #men .banner p{
+            font-size: 20px;
+        }
+    }
+       #women{
+        width: 100%;
+        min-height: auto;
+       }
+       #women .flex{
+        width: 100%;
+        height: 300px;
+        
+        background-image: url("woman.jpg");
+        background-size: cover;
+        background-position: center;
+       }
+       #women .flex h1{
+        color: black;
+        font-size: 100px;
+        padding-top: 50px;
+        opacity: .8;
+    }
+    #women .flex p{
+        color:wheat;
+        font-size: 30px;
+    }
+    @media screen and (max-width:576px){
+        #women .flex h1{
+            font-size: 80px;
+        }
+        #women .flex p{
+            font-size: 20px;
+        }
+    }
+     .symbol{
+        height: 150px;
+        width: 100%;
+       box-shadow: 0px 2px 4px 0px black;
+        display: flex;
+        justify-content: center;
+        
+    }
+     #brand{
+        width: 100px;
+        height: 100px;
+        margin-left: 12%;
+    }
+     @media screen and (max-width:576px){
+         #brand{
+            margin-left: 5%;
+            width: 60px;
+            height: 60px;
+        }
+        .symbol{
+            height: 80px;
+        }
+    }
+  #kids{
+    width:100%;
+    min-height: auto;
+  }
+  #kids .children{
+    width: 100%;
+    height: 300px;
+    
+    background-image: url("kids.jpg");
+    background-position:center;
+    background-size: cover;
+  }
+   #kids .children h1{
+    color: black;
+    font-size: 100px;
+    padding-top: 50px;
+    opacity: .8;
+}
+#kids .children p{
+    color:wheat;
+    font-size: 30px;
+}
+  @media screen and (max-width:576px){
+    #kids .children{
+        width: 100%;
+        height: 200px;
+    }
+    #kids .children h1{
+        font-size: 80px;
+    }
+    #kids .children p{
+        font-size: 20px;
+    }
+  }
+  #shoe{
+    width: 250px;
+    height: 200px;
+    margin-left: 8px;
+  }
+  @media screen and (max-width:576px){
+    #shoe{
+        width:100px;
+        height:100px;
+    }
+  }
+  #about{
+    width: 100%;
+    min-height: auto;
+  }
+  #about .ab{
+    width:50%;
+    height: 500px;
+    float: left;
+    background-image: url(logo.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+  #about .cd{
+    width:50%;
+    height: 500px;
+    float: right;
+    background: linear-gradient(to bottom,red,blue);
+ }
+ #about .cd h6{
+    color:orange;
+    font-size: 20px;
+    padding-top: 20px;
+ }
+ #about .cd h3{
+    font-size: 50px;
+    padding-top: 20px;
+ }
+ #about .cd p{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 5px;
+    color:aqua;
+ }
+ @media screen and (max-width:576px){
+    #about{
+        width: 100%;
+        min-height: auto;
+    }
+    #about .ab{
+        width: 100%;
+        height: 300px;
+        }
+    #about .cd{
+        width:100%;
+        height: 300px;
+    }
+    #about .cd h3{
+        font-size: 30px;
+        padding-top: 10px;
+     }
+     #about .cd p{
+        font-size: 15px;
+        padding-top: 10px;
+        padding-left: 5px;
+     }
+ }
+ .footer{
+    background-color: #24262b;
+    padding: 70px 0;
+    min-height: auto;
+ }
+ .footer .container{
+    max-width: 1170px;
+    margin: auto;
+ }
+ ul{
+    list-style: none;
+ }
+ .col{
+    width: 25%;
+    padding: 0 15px;
+ }
+.col h4{
+    color: white;
+}
+.col li{
+    color:black;
+}
+.footer .card{
+    background-color:#24262b;
+}
+.col i{
+    color:black;
+    padding: 10px;
+    border: 2px solid white;
+    background-color: aqua;
+    border: none;
+}
+footer p{
+    color:black;
+    text-align: center;
+    padding-top:20px;
+}
+
+
